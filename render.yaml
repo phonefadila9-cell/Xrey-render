@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: xray-server
+    env: docker
+    plan: free
+    repo: https://github.com/phonefadila9-cell/Xrey-render
+    dockerfilePath: Dockerfile
+    branch: main
+    autoDeploy: true
